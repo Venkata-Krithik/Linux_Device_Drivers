@@ -35,10 +35,12 @@ MODULE_INFO(retpoline, "Y");
 
 static const char ____versions[]
 __used __section("__versions") =
-	"\x14\x00\x00\x00\x78\xe6\xbd\x2d"
-	"proc_create\0"
+	"\x10\x00\x00\x00\x7e\x3a\x2c\x12"
+	"_printk\0"
 	"\x1c\x00\x00\x00\xca\x39\x82\x5b"
 	"__x86_return_thunk\0\0"
+	"\x14\x00\x00\x00\x78\xe6\xbd\x2d"
+	"proc_create\0"
 	"\x14\x00\x00\x00\x48\xa1\xe8\xe3"
 	"proc_remove\0"
 	"\x14\x00\x00\x00\xbb\x6d\xfb\xbd"
@@ -50,4 +52,4 @@ __used __section("__versions") =
 MODULE_INFO(depends, "");
 
 
-MODULE_INFO(srcversion, "6A28CD65E3676756C8A65E7");
+MODULE_INFO(srcversion, "15397183B420EB2C7EBBFA1");
